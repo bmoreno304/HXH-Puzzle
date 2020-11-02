@@ -148,18 +148,7 @@ function UserWin() {
     l.classList.remove("none");
 }
 
-function UserFinal() {
-  if (
-    a.getAttribute("src") == "images/first.png" &&
-    b.getAttribute("src") == "images/second.png" &&
-    c.getAttribute("src") == "images/third.png" &&
-    d.getAttribute("src") == "images/fourth.png" &&
-    e.getAttribute("src") == "images/five.png" &&
-    f.getAttribute("src") == "images/six.png" &&
-    g.getAttribute("src") == "images/seven.png" &&
-    h.getAttribute("src") == "images/ate.png"
-  )
-    m .classList.remove("none");
+
 }
 const confetti = document.getElementById('confetti');
 const confettiCtx = confetti.getContext('2d');
