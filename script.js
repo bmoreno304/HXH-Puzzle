@@ -149,7 +149,7 @@ function UserWin() {
 }
 
 
-}
+
 const confetti = document.getElementById('confetti');
 const confettiCtx = confetti.getContext('2d');
 let container, confettiElements = [], clickPosition;
