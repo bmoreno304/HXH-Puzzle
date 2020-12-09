@@ -11,8 +11,8 @@ var j = document.getElementById("haudio");
 var k = document.getElementById("music");
 var l = document.getElementById("king");
 var m = document.getElementById("final");
-var n = document.getElementById("");
-var o = document.getElementById("");
+var n = document.getElementById("boy");
+var o = document.getElementById("man");
 
 
 function playSound() {
