@@ -33,6 +33,7 @@ function changeThis() {
   a.src = image1array[imgnumber];
   imgnumber++;
   UserWin();
+  Inncorrectimg();
 }
 
 var image2array = ["images/show2.png", "images/second.png", "images/quin2.png"];
@@ -46,6 +47,7 @@ function changeThis1() {
   b.src = image2array[imgnumber1];
   imgnumber1++;
   UserWin();
+    Inncorrectimg();
 }
 
 var image3array = ["images/quin3.png", "images/third.png", "images/show3.png"];
@@ -59,6 +61,7 @@ function changeThis2() {
   c.src = image3array[imgnumber2];
   imgnumber2++;
   UserWin();
+   Inncorrectimg();
 }
 
 var image4array = ["images/quin4.png", "images/show4.png", "images/fourth.png"];
@@ -72,6 +75,7 @@ function changeThis3() {
   d.src = image4array[imgnumber3];
   imgnumber3++;
   UserWin();
+   Inncorrectimg();
 }
 
 var image5array = ["images/quin5.png", "images/five.png", "images/show5.png"];
@@ -85,6 +89,7 @@ function changeThis4() {
   e.src = image5array[imgnumber4];
   imgnumber4++;
   UserWin();
+    Inncorrectimg();
 }
 
 var image6array = ["images/quin6.png", "images/show6.png", "images/six.png"];
@@ -98,6 +103,7 @@ function changeThis5() {
   f.src = image6array[imgnumber5];
   imgnumber5++;
   UserWin();
+    Inncorrectimg();
 }
 
 var image7array = ["images/quin7.png", "images/show7.png", "images/seven.png"];
@@ -111,6 +117,7 @@ function changeThis6() {
   g.src = image7array[imgnumber6];
   imgnumber6++;
   UserWin();
+   Inncorrectimg();
 }
 
 var image8array = ["images/quin8.png", "images/show8.png", "images/ate.png"];
@@ -124,6 +131,7 @@ function changeThis7() {
   h.src = image8array[imgnumber7];
   imgnumber7++;
   UserWin();
+    Inncorrectimg();
 }
 
 function UserWin() {
@@ -138,9 +146,11 @@ function UserWin() {
     h.getAttribute("src") == "images/ate.png"
   ) {
     l.classList.remove("none"); 
-  }
-  
-  else if( 
+  }   
+}
+
+function Inncorrectimg() {
+    if( 
     a.getAttribute("src") == "images/quin1.png" &&
     b.getAttribute("src") == "images/quin2.png" &&
     c.getAttribute("src") == "images/quin3.png" &&
@@ -153,7 +163,7 @@ function UserWin() {
    n.classList.add("blink-image");
    o.classList.add("blink-image");}
   
-   else if(
+    if(
     a.getAttribute("src") == "images/show1.png" &&
     b.getAttribute("src") == "images/show2.png" &&
     c.getAttribute("src") == "images/show3.png" &&
@@ -165,9 +175,7 @@ function UserWin() {
     ) {
    n.classList.add("blink-image");
    o.classList.add("blink-image");}
-  
 }
-
 
 
 const confetti = document.getElementById('confetti');
