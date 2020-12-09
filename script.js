@@ -150,8 +150,8 @@ function UserWin() {
     g.getAttribute("src") == "images/quin7.png" &&
     h.getAttribute("src") == "images/quin8.png"
     ) {
-   n.classList.add("red");
-   o.classList.add("red");}
+   n.classList.add("blink-image");
+   o.classList.add("blink-image");}
   
    if else(
     a.getAttribute("src") == "images/show1.png" &&
@@ -163,8 +163,8 @@ function UserWin() {
     g.getAttribute("src") == "images/show7.png" &&
     h.getAttribute("src") == "images/show8.png"
     ) {
-   n.classList.add("red");
-   o.classList.add("red");}
+   n.classList.add("blink-image");
+   o.classList.add("blink-image");}
   
 }
 
