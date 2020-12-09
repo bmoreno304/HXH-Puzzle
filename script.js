@@ -161,8 +161,8 @@ function Inncorrectimg() {
     g.getAttribute("src") == "images/quin7.png" &&
     h.getAttribute("src") == "images/quin8.png"
     ) { 
-   p.style.background = url("images/background.png");
-   q.style.background = url("images/background.png");
+   p.style.backgroundImage = "url(images/background.png)";
+   q.style.backgroundImage = "url(images/background.png)";
    n.classList.add("gone");
    o.classList.add("gone");}
   
@@ -176,8 +176,8 @@ function Inncorrectimg() {
     g.getAttribute("src") == "images/show7.png" &&
     h.getAttribute("src") == "images/show8.png"
     ) {
-   p.style.background = url("images/background.png");
-   q.style.background = url("images/background.png");
+   p.style.backgroundImage = "url(images/background.png)";
+   q.style.backgroundImage = "url(images/background.png)";
    n.classList.add("gone");
    o.classList.add("gone");}
 }
