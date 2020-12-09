@@ -140,7 +140,7 @@ function UserWin() {
     l.classList.remove("none"); 
   }
   
-  if else( 
+  else if( 
     a.getAttribute("src") == "images/quin1.png" &&
     b.getAttribute("src") == "images/quin2.png" &&
     c.getAttribute("src") == "images/quin3.png" &&
@@ -153,7 +153,7 @@ function UserWin() {
    n.classList.add("blink-image");
    o.classList.add("blink-image");}
   
-   if else(
+   else if(
     a.getAttribute("src") == "images/show1.png" &&
     b.getAttribute("src") == "images/show2.png" &&
     c.getAttribute("src") == "images/show3.png" &&
