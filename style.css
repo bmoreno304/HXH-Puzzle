@@ -174,3 +174,6 @@ canvas {
   height: 100vh;
 }
 
+.red{
+  filter: hue-rotate(120deg); 
+}
