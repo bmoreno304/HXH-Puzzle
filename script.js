@@ -136,8 +136,36 @@ function UserWin() {
     f.getAttribute("src") == "images/six.png" &&
     g.getAttribute("src") == "images/seven.png" &&
     h.getAttribute("src") == "images/ate.png"
-  )
-    l.classList.remove("none");
+  ) {
+    l.classList.remove("none"); 
+  }
+  
+  if else( 
+    a.getAttribute("src") == "images/quin1.png" &&
+    b.getAttribute("src") == "images/quin2.png" &&
+    c.getAttribute("src") == "images/quin3.png" &&
+    d.getAttribute("src") == "images/quin4.png" &&
+    e.getAttribute("src") == "images/quin5.png" &&
+    f.getAttribute("src") == "images/quin6.png" &&
+    g.getAttribute("src") == "images/quin7.png" &&
+    h.getAttribute("src") == "images/quin8.png"
+    ) {
+   n.classList.add("red");
+   o.classList.add("red");}
+  
+   if else(
+    a.getAttribute("src") == "images/show1.png" &&
+    b.getAttribute("src") == "images/show2.png" &&
+    c.getAttribute("src") == "images/show3.png" &&
+    d.getAttribute("src") == "images/show4.png" &&
+    e.getAttribute("src") == "images/show5.png" &&
+    f.getAttribute("src") == "images/show6.png" &&
+    g.getAttribute("src") == "images/show7.png" &&
+    h.getAttribute("src") == "images/show8.png"
+    ) {
+   n.classList.add("red");
+   o.classList.add("red");}
+  
 }
 
 
