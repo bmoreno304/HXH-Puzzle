@@ -13,15 +13,7 @@ var l = document.getElementById("king");
 var m = document.getElementById("final");
 var n = document.getElementById("");
 var o = document.getElementById("");
-var p = document.getElementById("");
-var q = document.getElementById("");
-var r = document.getElementById("");
-var s = document.getElementById("");
-var t = document.getElementById("");
-var t = document.getElementById("");
-var u = document.getElementById("");
-var v = document.getElementById("");
-var w = document.getElementById("");
+
 
 function playSound() {
   i.play();
