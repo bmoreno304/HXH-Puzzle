@@ -13,7 +13,8 @@ var l = document.getElementById("king");
 var m = document.getElementById("final");
 var n = document.getElementById("boy");
 var o = document.getElementById("man");
-
+var p = document.getElementById("box1");
+var q = document.getElementById("box2");
 
 function playSound() {
   i.play();
@@ -159,7 +160,9 @@ function Inncorrectimg() {
     f.getAttribute("src") == "images/quin6.png" &&
     g.getAttribute("src") == "images/quin7.png" &&
     h.getAttribute("src") == "images/quin8.png"
-    ) {
+    ) { 
+   p.style.background = url("images/background.png");
+   q.style.background = url("images/background.png");
    n.classList.add("gone");
    o.classList.add("gone");}
   
@@ -173,6 +176,8 @@ function Inncorrectimg() {
     g.getAttribute("src") == "images/show7.png" &&
     h.getAttribute("src") == "images/show8.png"
     ) {
+   p.style.background = url("images/background.png");
+   q.style.background = url("images/background.png");
    n.classList.add("gone");
    o.classList.add("gone");}
 }
