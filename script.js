@@ -160,8 +160,8 @@ function Inncorrectimg() {
     g.getAttribute("src") == "images/quin7.png" &&
     h.getAttribute("src") == "images/quin8.png"
     ) {
-   n.classList.add("red");
-   o.classList.add("red");}
+   n.classList.add("gone");
+   o.classList.add("gone");}
   
     if(
     a.getAttribute("src") == "images/show1.png" &&
@@ -173,8 +173,8 @@ function Inncorrectimg() {
     g.getAttribute("src") == "images/show7.png" &&
     h.getAttribute("src") == "images/show8.png"
     ) {
-   n.classList.add("red");
-   o.classList.add("red");}
+   n.classList.add("gone");
+   o.classList.add("gone");}
 }
 
 
